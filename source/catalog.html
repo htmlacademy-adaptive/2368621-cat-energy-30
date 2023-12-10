@@ -59,7 +59,7 @@
 <main>
 
   <section class="catalog-section">
-  <h1 clas="catalog-title">Каталог продукции</h1>
+  <h1 class="catalog-title">Каталог продукции</h1>
 
   <ul class="product-list">
     <li class="product-card">
@@ -161,20 +161,22 @@
                 </li>
 
                 <li class="product-card">
-                  <section>
-                  <a class="product-card__link" href="product.html"><img>  </a>
-                  <section>
+                  <div class="product-card__additional">
+                  <div class="product-card__image">
+                  <a class="product-card__link" href="product.html"><img src="#" alt="#">  </a>
+                  <div>
                     <a class="product-card__link" href="product.html"><h3 class="product-card-title">Показать еще 100500 товаров</h3></a>
                     <p class="product-card__text">На самом деле вкусов гораздо больше!</p>
-                  </section>
-                </section>
+                  </div>
+                </div>
                   <a class="card-button__order card-button__more" href="#">Показать все</a>
-                  </li>
-                </section>
-              <section class="additional-catalog__section">
+                </div>
+                </li>
+                  </ul>
+                <div class="additional-catalog__section">
                 <h2 class="additional-catalog__title">Дополнительные товары</h2>
-                <section class="additional-catalog__section">
-                  <section class="additional-catalog__section-table">
+                <div class="additional-catalog__section">
+                  <div class="additional-catalog__section-table">
                   <table class="additional-catalog__table">
                     <tr class="additional-catalog__table-row">
                       <th class="additional-catalog__table-title">Сахарозаменитель</th>
@@ -201,18 +203,19 @@
                       <td class="additional-catalog__table-cell"><input class="additional-input additional-button" type="submit" value="Заказать"></td>
                     </tr>
                   </table>
-                </section>
-                <section class="additional-catalog__column-section">
-<svg class="additional-catalog__column-image" version="1.0" xmlns="http://www.w3.org/2000/svg" width="80.000000pt" height="83.000000pt" viewBox="0 0 80.000000 83.000000"
- preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,83.000000) scale(0.100000,-0.100000)"fill="#000000" stroke="none"></g></svg>
+                </div>
+              </div>
+                <div class="additional-catalog__column-section">
+<svg class="additional-catalog__column-image" version="1.1" xmlns="http://www.w3.org/2000/svg" width="80.000000pt" height="83.000000pt" viewBox="0 0 80.000000 83.000000"
+ preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,83.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"></g></svg>
                   <p class="additional-catalog__column-text">Закажите все и получите чехол для кота в подарок!</p>
-                </section>
-              </section>
+                </div>
+              </div>
               </section>
 
 </main>
 <footer class="main-footer">
-  <img class="map__footer" src="img/map.png" alt="Карта" width="1440px" height="400px">
+  <img class="map__footer" src="img/map.png" alt="Карта" width="1440" height="400">
   <section class="section-footer">
     <div class="wrapper-footer">
       <h3 class="title-footer">Приглашаем к сотрудничеству дилеров!</h3>
@@ -222,7 +225,8 @@
         </div>
     </div>
   </section>
-  <section class="main-footer__contacts">
+
+  <div class="main-footer__contacts">
    <a class="logo__footer" href="index.html">
     <svg xmlns="http://www.w3.org/2000/svg" width="118" height="21" viewBox="0 0 118 21" fill="none">
       <path d="M1.42351 19.2159C0.391283 17.7277 -0.102273 15.9474 0.0207226 14.156V6.84405C-0.109487 5.03944 0.376607 3.24353 1.40346 1.73542C2.33197 0.572011 3.91845 -0.00644536 6.16291 5.41628e-05C8.40736 0.00655368 9.92704 0.516766 10.722 1.53069C11.6912 2.78717 12.1642 4.3407 12.0546 5.90812V7.62399H7.90636V5.76188C7.90077 5.27192 7.85723 4.78307 7.77611 4.29949C7.72595 3.9494 7.56075 3.6245 7.30517 3.3733C7.1474 3.24166 6.96423 3.14195 6.76637 3.08001C6.56852 3.01807 6.35995 2.99515 6.15288 3.01258C5.8555 2.9694 5.55167 3.01643 5.28273 3.14726C5.0138 3.2781 4.79283 3.48638 4.6499 3.74378C4.38644 4.42844 4.27049 5.15851 4.30923 5.88862V15.1699C4.26352 15.9049 4.39743 16.6399 4.7 17.3148C4.84457 17.5582 5.05909 17.7553 5.31721 17.8817C5.57533 18.0082 5.86578 18.0585 6.15288 18.0265C6.435 18.0653 6.72251 18.0164 6.97441 17.8869C7.22631 17.7573 7.42973 17.5537 7.55567 17.305C7.79804 16.6191 7.90347 15.8944 7.86628 15.1699V13.2201H12.0145V14.9067C12.1366 16.4972 11.7023 18.0812 10.7821 19.4011C9.90032 20.4735 8.3773 21 6.21301 21C4.04871 21 2.35536 20.415 1.42351 19.2159Z" fill="#111111"/>
@@ -237,21 +241,21 @@
     </svg>
   </a>
 
-<section class="main-footer__social">
+<div class="main-footer__social">
 <ul class="social__list">
-  <li class="social__item"><a href="vk.com"><img src="img/vk.png" alt="В контакте" width="26.96px" height="17px"></a></li>
-  <li class="social__item"><a href="youtube.com"><img src="img/youtube.png" alt="Youtube" width="24px" height="18.68px"></a></li>
-  <li class="social__item"><a href="telegram.com"><img src="img/telegram.png" alt="Телеграм" width="19.7px" height="17.07px"></a></li>
+  <li class="social__item"><a href="vk.com"><img src="img/vk.png" alt="В контакте" width="27" height="17"></a></li>
+  <li class="social__item"><a href="youtube.com"><img src="img/youtube.png" alt="Youtube" width="24" height="19"></a></li>
+  <li class="social__item"><a href="telegram.com"><img src="img/telegram.png" alt="Телеграм" width="20" height="18"></a></li>
 </ul>
-</section>
+</div>
 
-  <section class="main-footer__htmlacademy">
+  <div class="main-footer__htmlacademy">
     <a class="main-footer__link" href="htmlacademy.ru">
     <p class="main-footer__text">HTML Academy</p>
-    <img class="main-footer__image" src="img/лого_html_academy.png" alt="Логотип Html Academy" width="27" height="34px">
+    <img class="main-footer__image" src="img/лого_html_academy.png" alt="Логотип Html Academy" width="27" height="34">
   </a>
-  </section>
-</section>
+</div>
+</div>
 </footer>
 </body>
 </html>
