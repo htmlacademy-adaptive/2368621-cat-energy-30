@@ -1,0 +1,47 @@
+// .product-list{}
+
+.product-list__card {
+  background-color: $light_f2;
+}
+
+// .product-list__card-link{}
+
+// .product-list__card-image{}
+
+.product-list__card-title {
+  font-family: $title-font;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: $black_2;
+}
+
+.product-list__card-volume-text.product-list__card-volume.product-list__card-taste.product-list__card-taste-type.product-list__card-price-text.product-list__card-price.product-list__card-title.product-list__card-text {
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: $grey_4;
+}
+
+.product-list__card-button-order {
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: $white;
+  background-color: $green_38;
+}
+
+.product-list__card-button-show-more {
+  font-family: $title-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: $grey_4;
+  background-color: $light_f2;
+}
