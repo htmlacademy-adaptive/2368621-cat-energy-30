@@ -1,10 +1,12 @@
-// .aside{}
+.aside {
+  background-color: $light_ea;
+}
 
 .aside__title {
   font-family: $title-font;
-  font-size: 60px;
+  font-size: 36px;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 40px;
   text-align: center;
   color: $black;
 }
@@ -13,31 +15,37 @@
 
 .aside__paragraph {
   font-family: $primary-font;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 18px;
   text-align: left;
   color: $grey_4;
 }
 
 .aside__text {
   font-family: $primary-font;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 12px;
   text-align: center;
   color: $grey_4;
 }
 
 .aside__span {
   font-family: $title-font;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 37px;
+  line-height: 24px;
   text-align: center;
   color: $black;
 }
 
-.aside__image {
-  background-color: $light_ea;
+.aside__uppercase {
+  font-family: $title-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: $black;
 }
+// .aside__image {}

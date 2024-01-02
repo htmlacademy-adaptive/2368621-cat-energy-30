@@ -10,18 +10,18 @@
 
 .product-list__card-title {
   font-family: $title-font;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  text-align: center;
+  line-height: 20px;
+  text-align: left;
   color: $black_2;
 }
 
 .product-list__card-volume-text.product-list__card-volume.product-list__card-taste.product-list__card-taste-type.product-list__card-price-text.product-list__card-price.product-list__card-title.product-list__card-text {
   font-family: $primary-font;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 16px;
   text-align: center;
   color: $grey_4;
 }
