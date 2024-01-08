@@ -21,3 +21,11 @@
   text-align: left;
   color: $grey_4;
 }
+
+.contacts__email {
+  background-image: url("../../images/icons/stack.svg#form-email");
+}
+
+.contacts__number {
+  background-image: url("../../images/icons/stack.svg#form-phone");
+}
