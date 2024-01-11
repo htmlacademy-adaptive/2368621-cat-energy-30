@@ -4,11 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicons/32.svg">
+  <link rel="icon" href="favicons/32.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="./styles/styles.css">
   <title>HTML Academy: Кэт энерджи</title>
 </head>
 
 <body>
   <header class="main-header">
+    <a class="main-header__logo" href="index.html">
+      <span class="main-header__image visually-hidden">/</span>
+      <span class="main-header__logo--text visually-hidden">/</span>
+    </a>
+    </a>
     <nav class="main-header__nav main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
@@ -229,46 +238,60 @@
     </section>
   </main>
   <footer class="footer">
-    <picture>
-      <source type="image/png" media="(min-width: 1440px)" width="1440" height="400"
-        srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png  2x">
-      <source type="image/png" media="(min-width: 768px)" width="768" height="400"
-        srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png  2x">
-      <img class="footer__map" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x" width="320"
-        height="362" alt="Карта">
-    </picture>
     <section class="footer__top footer-top">
-      <div class="footer-top__wrapper">
-        <h3 class="footer-top__title">Приглашаем к сотрудничеству дилеров!</h3>
-        <address class="footer-top__address-wrapper">
-          <span class="footer-top__address">ул. Большая Конюшенная, д. 19/8</span>
-          <span class="footer-top__city">Санкт-Петербург</span>
-        </address>
-      </div>
-    </section>
-    <div class="footer__bottom footer-bottom">
-      <div class="footer-bottom__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a href="vk.com">
-              <p>/</p>
-            </a>
-          </li>
-          <li class="social__item"><a href="youtube.com">
-              <p>/</p>
-            </a></li>
-          <li class="social__item"><a href="telegram.com">
-              <p>/</p>
-            </a></li>
-        </ul>
-      </div>
-      <div class="footer-bottom__htmlacademy htmlacademy">
-        <a class="htmlacademy__link" href="htmlacademy.ru">
-          <p class="htmlacademy__text">HTML Academy</p>
+  <div class="footer-top__wrapper footer__top-index">
+    <h3 class="footer-top__title">Приглашаем к сотрудничеству дилеров!</h3>
+    <address class="footer-top__address-wrapper">
+      <span class="footer-top__address">ул. Большая Конюшенная, д. 19/8</span>
+      <span class="footer-top__city">Санкт-Петербург</span>
+    </address>
+  </div>
+  <picture>
+    <source type="image/png" media="(min-width: 1440px)" width="1440" height="400"
+      srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png  2x">
+    <source type="image/png" media="(min-width: 768px)" width="768" height="400"
+      srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png  2x">
+    <img class="footer__map" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x" width="320"
+      height="362" alt="Карта">
+  </picture>
+</section>
+<div class="footer__bottom footer-bottom">
+  <a href="index.html">
+    <svg class="footer__logo" width="128" height="24">
+      <use href="images/icons/stack.svg#footer-logo"></use>
+    </svg><span class="visually-hidden">/</span>
+  </a>
+  <div class="footer-bottom__social social">
+    <ul class="social__list">
+      <li class="social__item">
+        <a href="vk.com">
+          <svg class="social__image" width="29" height="17">
+            <use href="images/icons/stack.svg#vkontakte"></use>
+          </svg><span class="visually-hidden">/</span>
         </a>
-      </div>
-    </div>
-  </footer>
+      </li>
+      <li class="social__item"><a href="youtube.com">
+        <svg class="social__image" width="24" height="18">
+          <use href="images/icons/stack.svg#youtube"></use>
+        </svg><span class="visually-hidden">/</span>
+      </a></li>
+      <li class="social__item"><a href="telegram.com">
+        <svg class="social__image" width="19" height="17">
+          <use href="images/icons/stack.svg#telegram"></use>
+        </svg><span class="visually-hidden">/</span>
+        </a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom__htmlacademy htmlacademy">
+    <a class="htmlacademy__link" href="htmlacademy.ru">
+      <p class="htmlacademy__text">HTML Academy</p>
+      <svg class="htmlacademy__image" width="27" height="34">
+        <use href="images/icons/stack.svg#html_academy"></use>
+      </svg><span class="visually-hidden">/</span>
+    </a>
+  </div>
+</div>
+</footer>
 </body>
 
 </html>

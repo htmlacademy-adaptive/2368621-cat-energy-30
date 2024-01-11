@@ -1,9 +1,40 @@
 // .main{}
 
-// .main__header{}
+.main__image--background {
+  background-image: url("images/index-background-mobile@1x");
+  background-color: $green_38;
 
-// .main__catalog{}
+  @media (max-width: $tablet-width) {
+    display: none;
+  }
 
-// .main__advantages{}
+  @media (min-width: $desktop-width) {
+    background-image: url("images/index-background-desktop@1x");
+  }
+}
 
-// .main__aside{}
+.main__header {
+    display:  flex;
+    max-width: 280px;
+
+  @media (max-width: $tablet-width) {
+    max-width: 709px;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-content: center;
+    max-height: 499px;
+
+  }
+}
+
+.main__option {
+  display: grid;
+  gap: 80px;
+}
+
+// .main__catalog {}
+
+// .main__advantages {}
+
+// .main__aside {}

@@ -35,3 +35,29 @@
   text-align: left;
   color: $grey_4;
 }
+
+.advantages__image1::before {
+  background-image:url("images/icons/stack.svg#advantages1");
+  width: 26px;
+  height: 31px;
+}
+
+.advantages__image2::before{
+  display: flex;
+  content: url("../images/icons/stack.svg#advantages2");
+  background-color: $green_38;
+  width: 26px;
+  height: 31px;
+}
+
+.advantages__image3 {
+  background-image:url("images/icons/stack.svg#advantages3");
+  width: 26px;
+  height: 31px;
+}
+
+.advantages__image4 {
+  background-image:url("images/icons/stack.svg#advantages4");
+  width: 26px;
+  height: 31px;
+}

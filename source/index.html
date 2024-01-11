@@ -14,7 +14,9 @@
 <body>
   <header class="main-header">
     <a class="main-header__logo" href="index.html">
-      <p>/</p>
+      <span class="main-header__image visually-hidden">/</span>
+      <span class="main-header__logo--text visually-hidden">/</span>
+    </a>
     </a>
     <nav class="main-header__nav main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -27,10 +29,8 @@
       </div>
     </nav>
   </header>
-  <svg class="user-list__login-icon" width="16" height="16">
-    <use href="#icon-login"></use>
-  </svg>
-  <main class="main">
+    <main class="main">
+      <span class="main__image--background visually-hidden">/</span>
     <section class="main__header header">
       <h1 class="header__title">Функциональное питание для котов</h1>
       <p class="header__paragraph">Занялся собой? Займись котом!</p>
@@ -56,12 +56,8 @@
           <p class="option__paragraph">Ваш кот весит больше собаки и почти утратил способность
             лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
           <a class="option__button-link" href="#">
-            <p class="option-button">Каталог slim</p>
-            <svg width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line y1="6" x2="18" y2="6" stroke="black" stroke-width="2"/>
-              <path d="M24 6L17.25 11.1962L17.25 0.803848L24 6Z" fill="black"/>
-              </svg>
-          </a>
+            <p class="option-button option__image">Каталог slim</p>
+           </a>
         </li>
         <li class="option__item">
           <picture>
@@ -73,12 +69,8 @@
           <p class="option__paragraph">Заработать авторитет среди дворовых котов и даже собак?
             Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
           <a class="option__button-link" href="#">
-            <p class="option__button">Каталог pro</p>
-            <svg width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <line y1="6" x2="18" y2="6" stroke="black" stroke-width="2"/>
-              <path d="M24 6L17.25 11.1962L17.25 0.803848L24 6Z" fill="black"/>
-              </svg>
-          </a>
+            <p class="option__button option__image">Каталог pro</p>
+           </a>
         </li>
       </ul>
     </section>
@@ -87,31 +79,19 @@
       <h2 class="advantages__title">Как это работает</h2>
       <ul class="advantages__list">
         <li class="advantages__item">
-          <span class="advantages__background">1</span>
-          <svg class="advantages__image" width="26" height="31">
-            <use href="images/icons/stack.svg#advantages1"></use>
-          </svg>
+          <span class="advantages__background advantages__image1"></span>
           <p class="advantages__paragraph">Функциональное питание содержит только полезные питательные вещества.</p>
         </li>
         <li class="advantages__item">
-          <span class="advantages__background">2</span>
-          <svg class="advantages__image" width="26" height="31">
-            <use href="images/icons/stack.svg#advantages2"></use>
-          </svg>
-          <p class="advantages__paragraph">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+          <span class="advantages__background advantages__image2"></span>
+           <p class="advantages__paragraph">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
         </li>
         <li class="advantages__item">
-          <span class="advantages__background">3</span>
-          <svg class="advantages__image" width="26" height="31">
-            <use href="images/icons/stack.svg#advantages3"></use>
-          </svg>
+          <span class="advantages__background advantages__image3">3</span>
           <p class="advantages__paragraph">Замените один-два приема обычной еды на наше функциональное питание.</p>
         </li>
         <li class="advantages__item">
-          <span class="advantages__background">4</span>
-          <svg class="advantages__image" width="26" height="31">
-            <use href="images/icons/stack.svg#advantages4"></use>
-          </svg>
+          <span class="advantages__background advantages__image4">4</span>
           <p class="advantages__paragraph">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
         </li>
       </ul>
@@ -187,9 +167,9 @@
   <div class="footer-bottom__htmlacademy htmlacademy">
     <a class="htmlacademy__link" href="htmlacademy.ru">
       <p class="htmlacademy__text">HTML Academy</p>
-      <svg class="social__image" width="27" height="34">
+      <svg class="htmlacademy__image" width="27" height="34">
         <use href="images/icons/stack.svg#html_academy"></use>
-      </svg><span class="visually-hidden">/</span>
+      </svg>
     </a>
   </div>
 </div>
