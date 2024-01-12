@@ -1,6 +1,10 @@
 // .option{}
 
 // .option__list{}
+.option {
+  display: grid;
+  gap: 80px;
+}
 
 .option__item {
   background-color: $light_f2;

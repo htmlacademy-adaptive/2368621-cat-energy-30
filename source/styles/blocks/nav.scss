@@ -1,17 +1,15 @@
-// .main-nav{}
+// .nav__toggle{}
 
-// .main-nav__toggle{}
+// .nav__wrapper{}
 
-// .main-nav__wrapper{}
-
-.main-nav__list {
+.nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 @media (min-width: $tablet-width) {
-.main-nav__wrapper {
+.nav__wrapper {
   display: flex;
   justify-content: space-between;
   width: 436px;
@@ -20,7 +18,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .main-nav__wrapper {
+  .nav__wrapper {
     width: 478px;
   }
 }
