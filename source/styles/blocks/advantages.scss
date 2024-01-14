@@ -18,32 +18,23 @@
   color: $light_f2;
 }
 
-.advantages__list{
+.advantages__list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
-  counter-reset: number 0;
+  // counter-reset: number 0;
+  counter-reset: numbers;
 }
 
 .advantages__item {
-  // position: relative;
-  // width: calc(25% - 30px);
-  // padding-right: 50px;
-  // margin-bottom: 30px;
-  // margin-right: 30px;
-  // counter-increment: number 1;
-&::before{
-  // content: counter(number);
-  // font-size: 100px;
-  // line-height: 80px;
-  // color: #ccc;
-  // position: absolute;
-  // right: 30px;
-  // top: 0;
-  // font-weight: 800;
-  // z-index: -1;
+  display: block;
+  min-height: 280px;
+  min-width: 230px;
+  position: relative;
+  padding-left: 70px;
 
+  &::before {
     content: "";
     background-repeat: no-repeat;
     background-color: $green_38;
@@ -52,8 +43,8 @@
     position: absolute;
     left: 0;
     background-position: center;
-    }
   }
+}
 
 .advantages__image {
   color: $white;
@@ -69,27 +60,36 @@
   color: $grey_4;
 }
 
+.advantages__item::after {
+  content: counter(numbers);
+  display: block;
+  position: absolute;
+  color: #f2f2f2;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 280px;
+  line-height: 280px;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  counter-increment: numbers;
+}
+
 .advantages__image1::before {
-  content: "";
+  background-size: 30px 32px;
   background-image: url("../../images/icons/stack.svg#advantages1");
-  width: 26px;
-  height: 31px;
 }
 
 .advantages__image2::before {
-    content: url("../../images/icons/stack.svg#advantages2");
-  width: 26px;
-  height: 31px;
+  background-size: 30px 32px;
+  background-image: url("../../images/icons/stack.svg#advantages2");
 }
 
 .advantages__image3::before {
-  content: url("../../images/icons/stack.svg#advantages3");
-  width: 26px;
-  height: 31px;
+  background-size: 30px 32px;
+  background-image: url("../../images/icons/stack.svg#advantages3");
 }
 
 .advantages__image4::before {
-  content: url("../../images/icons/stack.svg#advantages4");
-  width: 26px;
-  height: 31px;
+  background-size: 30px 32px;
+  background-image: url("../../images/icons/stack.svg#advantages4");
 }
