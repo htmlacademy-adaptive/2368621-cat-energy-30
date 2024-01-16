@@ -7,26 +7,19 @@
 @import "./global/common.scss";
 
 /* BLOCKS */
-@import "./blocks/hero.scss";
-@import "./blocks/nav.scss";
-@import "./blocks/site-list.scss";
-@import "./blocks/main.scss";
 @import "./blocks/header.scss";
-@import "./blocks/option.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/nav-list.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/options.scss";
 @import "./blocks/advantages.scss";
-@import "./blocks/aside.scss";
-@import "./blocks/catalog.scss";
-@import "./blocks/product-list.scss";
-@import "./blocks/additional-catalog.scss";
-@import "./blocks/additional-column.scss";
-@import "./blocks/info-block.scss";
-@import "./blocks/data-section.scss";
-@import "./blocks/radio-button.scss";
+@import "./blocks/example.scss";
 @import "./blocks/contacts.scss";
-@import "./blocks/comments.scss";
-@import "./blocks/additional.scss";
 @import "./blocks/footer.scss";
-@import "./blocks/footer-top.scss";
-@import "./blocks/footer-bottom.scss";
 @import "./blocks/social.scss";
-@import "./blocks/htmlacademy.scss";
+@import "./blocks/dev.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/additional-catalog.scss";
+@import "./blocks/offer.scss";
+@import "./blocks/info-block.scss";
+@import "./blocks/radio-button.scss";

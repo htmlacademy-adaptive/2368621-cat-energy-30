@@ -1,50 +1,10 @@
-// .additional-catalog{}
+// .additional-catalog {
 
-.additional-catalog__title {
-  font-family: $title-font;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  color: $black;
-}
-
-// .additional-catalog__section{}
-
-// .additional-catalog__section-table{}
-
-// .additional-catalog__table{}
-
-// .additional-catalog__table-row{}
-
-.additional-catalog__table-title {
-  font-family: $title-font;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  text-align: center;
-  color: $black_2;
-}
-
-.additional-catalog__table-cell {
+// }
+.additional-catalog__value .additional-catalog__price {
   font-family: $primary-font;
   font-size: 14px;
-  font-weight: 400;
   line-height: 14px;
   text-align: center;
   color: $grey_4;
-}
-
-.additional-catalog__table-price {
-  text-align: right;
-}
-
-.additional-catalog__button-order {
-  font-family: $title-font;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  text-align: center;
-  color: $white;
-  background-color: $green_38;
 }
