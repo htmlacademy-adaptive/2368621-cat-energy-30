@@ -2,6 +2,7 @@
 
 // }
 .hero__title {
+  margin: 0;
   font-family: $title-font;
   font-size: 60px;
   line-height: 60px;
@@ -10,9 +11,11 @@
 }
 
 .hero__text {
+  margin: 0;
   font-family: $title-font;
   font-size: 20px;
   line-height: 20px;
   text-align: left;
   color: $black;
+  text-transform: uppercase;
 }

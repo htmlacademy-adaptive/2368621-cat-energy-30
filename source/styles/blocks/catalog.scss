@@ -1,7 +1,13 @@
-// .catalog {
+.catalog__list {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-// }
-.catalog-card__info .catalog-card__text {
+.catalog-card__info,
+.catalog-card__text {
+  margin: 0;
   font-family: $primary-font;
   font-size: 12px;
   line-height: 16px;
