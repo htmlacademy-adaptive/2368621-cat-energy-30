@@ -1,0 +1,14 @@
+.advantages__text {
+  margin: 0;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: $grey_4;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,1 +1,65 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее*/
+.button {
+  width: 244px;
+  height: 54px;
+  padding: 14px, 26px, 14px, 26px;
+  gap: 4px;
+  font-family: $title-font;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.button--primary {
+  background-color: $green_38;
+  color: $white;
+}
+
+.button--secondly {
+  background-color: $light_f2;
+  color: $grey_4;
+}
+
+.title-h2 {
+  margin: 0;
+  font-family: $title-font;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.title-h3 {
+  margin: 0;
+  font-family: $title-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: $black_2;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  height: 100%;
+  font-size: 14px;
+  font-family: "Oswald", "Lato", sans-serif;
+  line-height: 18px;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: $white;
+  color: $black;
+}
